@@ -53,7 +53,8 @@
 	
 	//echo $cmd;
 	try{
-	shell_exec($cmd);
+	//shell_exec($cmd);
+	exec($cmd);
 	} catch (PDOException $e)
 			{ 
 			echo $e->getMessage("Erreur du Select");
