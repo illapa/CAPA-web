@@ -53,7 +53,8 @@
 	
 	echo $cmd;
 
-	echo shell_exec($cmd);
+	//echo shell_exec($cmd);
+	echo exec($cmd);
 
 	
 	
